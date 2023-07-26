@@ -19,8 +19,8 @@ Contact
 Installation
 To run this website locally, follow these steps:
 
-Clone the repository: git clone https://github.com/your-username/marketing-agency.git
-Navigate to the project folder: cd marketing-agency
+Clone the repository: git clone https://github.com/lukenhoffman/HomeworkUno.git
+Navigate to the project folder: cd HomeworkUno
 Open index.html in your web browser to view the website.
 Usage
 Visit the deployed website here to explore the Marketing Agency website. You can navigate through different sections, learn about the services offered, and contact the agency using the provided contact form.
@@ -45,5 +45,5 @@ For inquiries or further information, please contact:
 
 Luken Hoffman
 
-Email: luken.hoffman@example.com
+Email: lukenhoffman@gmail.com
 GitHub: lukenhoffman
