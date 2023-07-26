@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Agency - Home</title>
+    <!-- Linking to the external CSS file for styling -->
+    <link rel="stylesheet" href="Assets/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h1>Welcome to my Portfolio!</h1>
+            <p>My name is Luken Hoffman. I am a 21-year-old Fullstack Developer. I spent five years managing my own business, which dealt heavily in client-based operations. During my time working for myself, I became an expert on consulting with individuals on how to best manage and execute their projects. I am currently employed at the United States Postal Service as an RCA. This job has deepened my team working skills greatly, working at the head of a small group at times and being led by someone else at other times, in order to achieve a common goal as quickly and effectively as possible.</p>
+            <a href="#services">Learn More</a>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2>My Services</h2>
+            <ul>
+                <li>FullStack Development</li>
+                <li>Website Design</li>
+                <li>Lawn Mowing</li>
+            </ul>
+            <a href="#contact">Contact Me</a>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team">
+            <h2>Meet Me</h2>
+            <div class="team-member">
+                <img src="Assets/team-member1.JPG" alt="Team Member 1">
+                <h3>Luken Hoffman</h3>
+                <p>Owner</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <!-- Contact Form -->
+            <form action="submit_form.php" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer Content -->
+        <p>&copy; 2023 Luken Hoffman. All rights reserved.</p>
+    </footer>
+</body>
+</html>

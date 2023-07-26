@@ -1,0 +1,163 @@
+/* CSS Reset: Resetting default margin, padding, and box-sizing to ensure consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles: Setting font family, line height, and text color for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Styles: Styling for the header, including background color and padding */
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Navigation Styles: Styling for the navigation menu using flexbox for centering and transitions for hover effect */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    margin: 0 15px;
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    background-color: #333;
+    color: #f2f2f2;
+}
+
+/* Main Styles: Setting max width, margin, and padding for the main content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* Section Styles: Adding margin at the bottom for spacing between sections */
+section {
+    margin-bottom: 60px;
+}
+
+/* Heading Styles: Setting different font sizes for h1, h2, and h3 elements and adding margins for spacing */
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styles: Setting line-height for better readability */
+p {
+    line-height: 1.8;
+}
+
+/* Unordered List Styles: Adding margin to list items within unordered lists for spacing */
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Link Styles: Styling for links, including background color, text color, and padding. Transitions added for smooth hover effect */
+a {
+    display: inline-block;
+    background-color: #333;
+    color: #f2f2f2;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for links */
+a:hover {
+    background-color: #555;
+}
+
+/* Team Section Styles: Using flexbox to center team members and adding margin for spacing */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Team Member Styles: Setting text alignment, width, and margins for team member container */
+.team-member {
+    text-align: center;
+    width: 200px;
+    margin: 15px;
+}
+
+/* Team Member Image Styles: Setting dimensions, border-radius for rounded corners, and box shadow for a subtle effect */
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid #f2f2f2;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles: Setting styling for the footer, including background color, text color, and padding */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #f2f2f2;
+    padding: 20px 0;
+}
+
+/* Media Queries for Responsiveness: Adjusting styles for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    nav li {
+        margin: 0 10px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    /* Adjusting team member width for better responsiveness */
+    .team-member {
+        width: 150px;
+    }
+}
